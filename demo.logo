@@ -1,0 +1,23 @@
+pu 
+# move up 100
+lt 90 fd 100 rt 150 
+pd 
+
+# draw a triangle of side length 200
+repeat 3 [fd 200 rt 120 ] 
+
+pu 
+# move to the bottom of the triangle
+fd 200 rt 30 
+pd 
+
+# draw a square of side length 200
+repeat 4 [fd 200 rt 90 ] 
+
+pu 
+# move to the middle of the base of the square
+fd 200 rt 90 fd 125 rt 90 
+pd 
+
+# draw a rectangle of side length 50
+fd 100 rt 90 fd 50 rt 90 fd 100 rt 90 
