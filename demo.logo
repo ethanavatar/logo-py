@@ -1,6 +1,10 @@
+setpencolor [255 0 0] 
+setpensize 5 
+
 pu 
 # move up 100
-lt 90 fd 100 rt 150 
+sety 200 
+rt 60 
 pd 
 
 # draw a triangle of side length 200
